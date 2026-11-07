@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output and test coverage
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment: real values stay local, the template is committed
+.env
+.env.*
+!.env.example
+*.local
+
+# Editors and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
